@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matrix Multiplier</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Matrix Multiplier</h1>
+
+    <div class="matrix-inputs">
+      <div>
+        <h2>Matrix A</h2>
+        <textarea id="matrixA" placeholder="e.g. 1 2\n3 4"></textarea>
+      </div>
+      <div>
+        <h2>Matrix B</h2>
+        <textarea id="matrixB" placeholder="e.g. 5 6\n7 8"></textarea>
+      </div>
+    </div>
+
+    <button id="multiplyBtn">Multiply</button>
+
+    <div class="result-section">
+      <h2>Result</h2>
+      <pre id="resultOutput">Enter matrices above and click "Multiply"</pre>
+    </div>
+  </div>
+
+  <script type="module" src="controller.js"></script>
+</body>
+</html>
+
